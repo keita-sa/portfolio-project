@@ -7,6 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.80.0">
+
   <title>{{ blog.titel }}</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
@@ -65,13 +66,12 @@
   <main role="main">
     <div class="container">
 
-      <h1 class="text-center pt-3">{{ Blog.titel }}</h1>
-      <a href="{% url 'detail' blog.id %}"><h3></h3></a>
-      {{ blog.pub_date_pretty }}
+      <h1 class="text-center pt-3">{{ blog.titel }}</h1>
+      <p class="text-center">{{ blog.pub_date_pretty }}</p>
       <br />
       <img class="img-fluid" src="{{ blog.image.url }}" height=200 width=200 />
       <br />
-      <p>{{ blog.summary }}</p>
+      <p>{{ blog.body }}</p>
 
     </div>
 
