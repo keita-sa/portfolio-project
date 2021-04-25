@@ -1,0 +1,21 @@
+-- Logs begin at Wed 2021-04-21 23:08:39 UTC, end at Wed 2021-04-21 23:38:25 UTC. --
+Apr 21 23:08:43 django2-portfolio systemd[1]: Started gunicorn daemon.
+Apr 21 23:08:43 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Main process exited, code=exited, status=203/EXEC[0m
+Apr 21 23:08:43 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Unit entered failed state.[0m
+Apr 21 23:08:43 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Failed with result 'exit-code'.[0m
+Apr 21 23:25:59 django2-portfolio systemd[1]: Started gunicorn daemon.
+Apr 21 23:25:59 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Main process exited, code=exited, status=203/EXEC[0m
+Apr 21 23:25:59 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Unit entered failed state.[0m
+Apr 21 23:25:59 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Failed with result 'exit-code'.[0m
+Apr 21 23:27:41 django2-portfolio systemd[1]: Started gunicorn daemon.
+Apr 21 23:27:41 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Main process exited, code=exited, status=203/EXEC[0m
+Apr 21 23:27:41 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Unit entered failed state.[0m
+Apr 21 23:27:41 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Failed with result 'exit-code'.[0m
+Apr 21 23:32:05 django2-portfolio systemd[1]: Started gunicorn daemon.
+Apr 21 23:32:05 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Main process exited, code=exited, status=203/EXEC[0m
+Apr 21 23:32:05 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Unit entered failed state.[0m
+Apr 21 23:32:05 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Failed with result 'exit-code'.[0m
+Apr 21 23:37:26 django2-portfolio systemd[1]: Started gunicorn daemon.
+Apr 21 23:37:26 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Main process exited, code=exited, status=203/EXEC[0m
+Apr 21 23:37:26 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Unit entered failed state.[0m
+Apr 21 23:37:26 django2-portfolio systemd[1]: [0;1;39mgunicorn.service: Failed with result 'exit-code'.[0m
